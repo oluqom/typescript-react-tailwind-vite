@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const NoMatch: FC = () => {
   return (
     <section>
-      <div className="w-screen min-h-screen gap-y-5 flex flex-col justify-center items-center">
-        <h1 className="text-9xl bg-clip-text font-bold text-transparent bg-gradient-to-l to-primary via-secondary from-primary-content">
+      <div className="flex min-h-screen w-screen flex-col items-center justify-center gap-y-5">
+        <h1 className="bg-gradient-to-l from-primary-content via-secondary to-primary bg-clip-text text-9xl font-bold text-transparent">
           404
         </h1>
-        <p className="text-3xl text-neutral font-medium">Page not found</p>
-        <Link className="btn btn-primary-content px-16" to="/">
+        <p className="text-3xl font-medium text-neutral">Page not found</p>
+        <Link className="btn-primary-content btn px-16" to="/">
           Go back
         </Link>
       </div>

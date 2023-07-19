@@ -19,7 +19,7 @@ const Home: FC = () => {
                 perferendis aspernatur quo nisi excepturi. Ex, ullam odio iusto
                 esse necessitatibus doloremque repudiandae!
               </p>
-              <button className="btn btn-primary">Get Started</button>
+              <button className="btn-primary btn">Get Started</button>
             </div>
           </div>
         </div>

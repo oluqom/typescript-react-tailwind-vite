@@ -4,7 +4,7 @@ import { Logo } from "@/widgets/LayoutHeader/model/types";
 const Logo: FC<Logo> = ({ logoName }: Logo) => {
   return (
     <div className="navbar-center">
-      <a className="btn btn-ghost normal-case text-xl">{logoName}</a>
+      <a className="btn-ghost btn text-xl normal-case">{logoName}</a>
     </div>
   );
 };
